@@ -1,0 +1,14 @@
+def calculate_square_and_cube(number):
+    square = number ** 2
+    cube = number ** 3
+    return square, cube
+
+# Input number from the user
+number = int(input("Enter a number: "))
+
+# Calculate square and cube using the function
+square, cube = calculate_square_and_cube(number)
+
+# Display the results
+print("Square:", square)
+print("Cube:", cube)
